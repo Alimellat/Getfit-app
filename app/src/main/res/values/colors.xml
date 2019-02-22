@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4DD0E1</color>
+    <color name="colorPrimaryDark">#26C6DA</color>
+    <color name="colorAccent">#4caf50</color>
+    <color name="back">#8bc34a</color>
+    <color name="fruitcolor">#cddc39
+    </color>
+
+
+    <color name="low">#fff59d</color>
+    <color name="fit">#a5d6a7</color>
+    <color name="back1">#66bb6a</color>
+    <color name="back2">#80cbc4</color>
+    <color name="extra">#ffcdd2</color>
+    <color name="button">#ff5722</color>
+</resources>

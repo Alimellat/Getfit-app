@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:dividerPadding="10dp"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/weighttext"
+        android:hint="@string/weight"
+        android:textColorHint="@android:color/black"
+        android:inputType="number"
+        android:layout_margin="10dp"
+
+
+        android:background="@android:color/transparent"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:inputType="number"
+        android:id="@+id/heighttext"
+        android:hint="@string/height"
+        android:layout_margin="10dp"
+        android:textColorHint="@android:color/black"
+        android:background="@android:color/transparent"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/genderspinner"
+        ></Spinner>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/actspinner"
+
+        ></Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/age_text"
+            android:hint="@string/age"
+            android:inputType="number"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="calculate_bmi_bmr"
+            android:text="@string/proceed"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

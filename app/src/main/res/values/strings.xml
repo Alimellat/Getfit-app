@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Get fit!</string>
+    <string name="hello">Hello!</string>
+    <string name="description">to begin,click calculate bmi in the next screen</string>
+    <string name="proceed">proceed</string>
+    <string name="weight">Please enter your weight in kg</string>
+    <string name="height">Please enter your height in cm</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="gender">
+
+
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+    <array name="active">
+
+        <item>little or no exercise</item>
+        <item>light exercise</item>
+        <item>moderate exercise</item>
+        <item>hard exercise</item>
+        <item>very hard exercise</item>
+    </array>
+    <string name="id">ID</string>
+
+    <string name="foods">Foods</string>
+    <string name="physical_activities">Activities</string>
+
+    <string name="bmical">Calculate BMI</string>
+    <string name="current_calorie">current calories per day:</string>
+    <string name="manage_calorie">Manage current Calories</string>
+    <string name="add_new">Add new</string>
+    <string name="Edit_existing">Edit existing</string>
+    <string name="walking">Walking(280 calories per hour)</string>
+    <string name="swimming">Swimming(510 calories per hour)</string>
+    <string name="hiking">Hiking(370 calories per hour)</string>
+    <string name="weight_lifting">Weight lifting(440 calories per hour)</string>
+
+
+
+    <string name="age">Age</string>
+    <string name="about">Created by:\nAlireza Mellat</string>
+    <string name="title_activity_bmi_activity">Bmi_activity</string>
+    <string name="add_to">Apply changes</string>
+    <string name="reset">Reset</string>
+    <string name="help">Help?</string>
+    <string name="About_us">About us</string>
+    <string name="more">More</string>
+
+    <string name="please_enter_your_desired_amount">Please Enter Your Desired Amount</string>
+    <string name="help_string">TO lose a kilogram in a week, you must consume 1000 calories per day than your body needs which is shown in the app depending on your information </string>
+
+
+    <string name="name">  Name</string>
+    <string name="calories">calories</string>
+    <string name="calories_per_hour">calories per Hour</string>
+    <string name="current_amount">Current Amount</string>
+
+
+</resources>
